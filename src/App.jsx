@@ -102,11 +102,11 @@ const App = () => {
     { id: 48, nombre: 'Geisha Explosion 6p', precio: 19000, cat: 'GEISHAS', img: 'productos/geisha-explosion-6p.webp'}, 
     { id: 49, nombre: 'Geisha Langostino 6p', precio: 19000, cat: 'GEISHAS', img: 'productos/geisha-langostino-6p.webp'},
     //EXTRAS
-    { id: 50, nombre: 'Salsa Buenos Aires 1u', precio: 2000, cat: 'EXTRAS', img: 'productos/salsa-buenos-aires-1u.webp'},
-    { id: 51, nombre: 'Salsa Futurama 1u', precio: 2000, cat: 'EXTRAS', img: 'productos/salsa-futurama-1u.webp'},
-    { id: 52, nombre: 'Salsa Mango 1u', precio: 2000, cat: 'EXTRAS', img: 'productos/salsa-mango-1u.webp'},
-    { id: 53, nombre: 'Salsa Maracuya 1u', precio: 2000, cat: 'EXTRAS', img: 'productos/salsa-maracuya-1u.webp'},
-    { id: 54, nombre: 'Wasabi jengibre 1u', precio: 2000, cat: 'EXTRAS', img: 'productos/wasabi-jengibre-1u.webp'},
+    { id: 50, nombre: 'Salsa Buenos Aires 1u', precio: 3000, cat: 'EXTRAS', img: 'productos/salsa-buenos-aires-1u.webp'},
+    { id: 51, nombre: 'Salsa Futurama 1u', precio: 3000, cat: 'EXTRAS', img: 'productos/salsa-futurama-1u.webp'},
+    { id: 52, nombre: 'Salsa Mango 1u', precio: 3000, cat: 'EXTRAS', img: 'productos/salsa-mango-1u.webp'},
+    { id: 53, nombre: 'Salsa Maracuya 1u', precio: 3000, cat: 'EXTRAS', img: 'productos/salsa-maracuya-1u.webp'},
+    { id: 54, nombre: 'Wasabi jengibre 1u', precio: 3000, cat: 'EXTRAS', img: 'productos/wasabi-jengibre-1u.webp'},
   ]);
 
   //CATEGORIAS
