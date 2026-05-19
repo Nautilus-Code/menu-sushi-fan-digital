@@ -73,7 +73,7 @@ const App = () => {
     { id: 26, nombre: 'Arrollados Primavera 3u', precio: 8000, cat: 'COCINA', img: 'productos/arrollados-primavera-3u.webp'},
     { id: 27, nombre: 'Boom 6u', precio: 5000, cat: 'COCINA', img: 'productos/boom-6u.webp'}, 
     { id: 28, nombre: 'Langostinos Rebozados 6u', precio: 7000, cat: 'COCINA', img: 'productos/langostinos-rebozados-6u.webp'}, 
-    { id: 29, nombre: 'Rabas 150gr', precio: 8000, cat: 'COCINA', img: 'productos/rabas-6u.webp'},
+    { id: 29, nombre: 'Rabas 150gr', precio: 8000, cat: 'COCINA', img: 'productos/rabas-150gr.webp'},
     //MAKIS
     { id: 30, nombre: 'Maki Salmon 8p', precio: 7000, cat: 'MAKIS', img: 'productos/maki-salmon-8p.webp'}, 
     { id: 31, nombre: 'Maki Philadelphia 8p', precio: 6000, cat: 'MAKIS', img: 'productos/maki-philadelphia-8p.webp'}, 
