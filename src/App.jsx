@@ -131,7 +131,7 @@ const App = () => {
   //FUNCIONES DE ENVIO
   const enviarWhatsApp = () => {
     if (!direccion.trim()) {
-      alert("⚠️ Por favor, ingresá una dirección para el envío.");
+      alert("⚠️ Por favor, ingresá una dirección para el envío, el costo de envio varia segun zona.");
       return;
     }
 
@@ -261,6 +261,9 @@ const App = () => {
 
                 {/* Formulario de entrega */}
                 <input type="text" placeholder="📍 Dirección de entrega" value={direccion} onChange={(e) => setDireccion(e.target.value)} style={{ width: '100%', padding: '12px', background: '#111', color: '#fff', border: '1px solid #333', borderRadius: '8px', marginTop: '20px' }} />
+                <p style={{ color: '#777', fontSize: '12px', marginTop: '5px', marginBottom: '5px', textAlign: 'left' }}>
+  * Envío: Wilde/Dominico $3.000 (base en web) | Quilmes/Bernal $5.000 (+$2.000 por WhatsApp) | Piñeiro $8.000 (+$5.000 por WhatsApp).
+</p>
                 <textarea placeholder="📝 Notas (ej: para que hora, no anda el timbre...)" value={notas} onChange={(e) => setNotas(e.target.value)} style={{ width: '100%', padding: '12px', background: '#111', color: '#fff', border: '1px solid #333', borderRadius: '8px', marginTop: '10px', height: '60px' }} />
                 
                 {/* Métodos de Pago */}
